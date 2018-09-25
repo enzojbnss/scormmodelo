@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Course Launch Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css" href="shared/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="shared/css/tema.css">
+<style type="text/css" media="screen">
+@font-face {
+	font-family: urw-LightItalic;
+	src: url(shared/fontes/URWDIN-LightItalic.otf)
+}
+
+@font-face {
+	font-family: urw-demi;
+	src: url(shared/fontes/URWDIN-Demi.otf)
+}
+
+#contentFrame {
+	height: 100%;
+	margin-top: 0px;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0
+}
+
+.conteudo {
+	
+}
+
+.controlDiv {
+	position: absolute;
+	top: 45%;
+	text-align: center;
+	width: 100%
+}
+
+.btnNavigation {
+	width: 2.65%
+}
+
+.lblespacoBotao {
+	width: 79%;
+}
+
+.videoH {
+	margin-left: 7.2%;
+	margin-right: 0;
+	padding: 0;
+	z-index: 0;
+	width: 86.5%;
+}
+
+@media ( max-width : 1600px) {
+	.videoH {
+		margin-left: 6.3%;
+		width: 87.4%;
+	}
+}
+
+@media ( max-width : 1366px) {
+	.videoH {
+		margin-left: 7.6%;
+		width: 84.8%;
+	}
+}
+
+@media ( max-width : 1280px) {
+	.videoH {
+		margin-left: 2.5%;
+		width: 95%;
+	}
+}
+
+@media ( max-width : 1024px) {
+	.videoH {
+		margin-left: 0;
+		width: 100%;
+	}
+}
+
+@media ( max-width : 733px) {
+	.videoH {
+		margin-left: 8.9%;
+		width: 83%;
+	}
+}
+
+@media ( max-width : 435px) {
+	.videoH {
+		margin-left: 0;
+		width: 100%;
+	}
+}
+</style>
+</head>
+<body id="corpo">
+	<div id="contentFrame">
+		<div id="dvconteudo">
+			<div id="navHead"></div>
+			<video class="videoH" id="video" autoplay="autoplay"
+				controls="controls">
+				<source src="marketplace/video/conteudo/video.ogv" type="video/ogv">
+			</video>
+			<input type="hidden" id="time"> <input type="hidden"
+				id="duracao">
+		</div>
+		<div class="controlDiv">
+			<input class="btnNavigation" type="image"
+				src="marketplace/image/setaEsquerda.png" value="" id="btnPrev">
+			<input class="btnNavigation"
+				type="image" src="marketplace/image/setaDireita.png"
+				value="Proximo ->" id="btnNext">
+		</div>
+		<script src="shared/js/jquery/jquery-3.2.1.min.js"
+			type="text/javascript"></script>
+		<script src="shared/js/jquery/jQuery.tmpl.js" type="text/javascript"></script>
+		<script src="shared/js/componente/control/Navegador.js"
+			type="text/javascript"></script>
+		<script src="shared/js/componente/control/Tela.js"
+			type="text/javascript"></script>
+		<script src="shared/js/componente/control/Test.js"
+			type="text/javascript"></script>
+		<script src="shared/js/componente/control/Page.js"
+			type="text/javascript"></script>
+		<script src="shared/js/componente/control/Modulo.js"
+			type="text/javascript"></script>
+		<script src="shared/js/componente/control/Content.js"
+			type="text/javascript"></script>
+		<script src="shared/js/componente/control/Apresentacao.js"
+			type="text/javascript"></script>
+		<script src="shared/js/componente/control/Aluno.js"
+			type="text/javascript"></script>
+		<script src="shared/js/common.js" type="text/javascript"></script>
+		<script src="shared/js/componente/scorm/Scorm.js"
+			type="text/javascript"></script>
+		<script src="shared/js/componente/video/SourceVideo.js"
+			type="text/javascript"></script>
+		<script src="shared/js/componente/video/TimeLine.js"
+			type="text/javascript"></script>
+		<script src="shared/js/componente/video/Video.js"
+			type="text/javascript"></script>
+		<script src="marketplace/js/index.js" type="text/javascript"></script>
+	</div>
+</body>
+</html>
