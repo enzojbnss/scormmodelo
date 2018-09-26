@@ -1,0 +1,169 @@
+#contentFrame, * {
+	overflow: hidden
+}
+
+#footer, #navDiv, #right {
+	position: relative
+}
+
+#fechar, #navDiv, #right {
+	float: right
+}
+
+#butNext, #butPrevious, #footer {
+	top: -64px
+}
+
+#conteudo, #navUp {
+	width: 100%;
+	height: 100%;
+	display: block
+}
+
+#contentFrame, #conteudo, #fechar, #foto, #navUp {
+	display: block
+}
+
+#fechar, #navDown, #navUp {
+	z-index: 11;
+	position: absolute
+}
+
+#conteudo, #fechar, #foto, #navDown, #navHead, #navUp {
+	position: absolute
+}
+
+#contentFrame, #navHead {
+	margin: 0;
+	padding: 0;
+	top: 0
+}
+
+* {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+#navUp {
+	top: 0;
+	left: 0
+}
+
+#fechar {
+	top: 0;
+	right: 10px
+}
+
+#contentFrame { //
+	position: relative;
+	z-index: 9
+}
+
+#foto {
+	top: 0
+}
+
+#footer {
+	z-index: 3;
+	background: url(../image/footer.png) no-repeat;
+	background-size: 100% 64px;
+	width: 100%
+}
+
+#right {
+	margin-left: 120px;
+	padding-right: 245px
+}
+
+#navDiv {
+	background: url(../image/footer.png) bottom right no-repeat;
+	background-size: 625px 70px;
+	margin-top: -56px;
+	width: 625px;
+	right: 23.2%;
+	bottom: 11px
+}
+
+#conteudo {
+	background: url(../image/33.png);
+	background-size: cover;
+	z-index: 10
+}
+
+#navDown {
+	bottom: 10px;
+	right: 20px;
+	display: inline-block
+}
+
+#teste1, #teste2 {
+	visibility: hidden
+}
+
+#navHead {
+	background: url(../image/head.png) top left no-repeat;
+	background-size: 34% 66%;
+	height: 10%;
+	width: 28%;
+	float: left;
+	z-index: 3;
+	margin-left: 7.2%;
+}
+
+@media ( max-width : 1920px) {
+	#navHead {
+		background-size: 34% 66%;
+		height: 9%;
+		margin-left: 7.2%;
+	}
+}
+
+@media ( max-width : 1600px) {
+	#navHead {
+		margin-left: 6.3%;
+	}
+}
+
+@media ( max-width : 1366px) {
+	#navHead {
+		margin-left: 7.6%;
+	}
+}
+
+@media ( max-width : 1280px ) {
+	#navHead {
+		margin-left: 2.5%;
+	}
+}
+
+
+@media ( max-width : 800px) {
+	#navHead {
+		height: 7%;
+	}
+}
+
+@media ( max-width : 768px) {
+	#navHead {
+		height: 5%;
+	}
+}
+
+
+@media ( max-width : 733px) {
+	#navHead {
+		height: 11%;
+		margin-left: 8.9%;
+	}
+}
+
+@media ( max-width : 435px) {
+	#navHead {
+		height: 5%;
+		margin-left: 0;
+	}
+}

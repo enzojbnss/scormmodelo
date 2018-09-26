@@ -1,0 +1,131 @@
+.video {
+    margin-left: 36.4%;
+    margin-right: 0;
+    padding: 0;
+    z-index: 0;
+    width: 27.3%;
+}
+
+.controlDiv {
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    width: 100%;
+    margin-left: 4%;
+}
+
+.btnNavigation {
+    width: 70%;
+}
+
+
+@media (max-height: 1600px) and (max-width: 900px) {
+	.video {
+		margin-left: 36.3%;
+		margin-right: 0;
+		padding: 0;
+		z-index: 0;
+		width: 27.5%;
+	}
+	
+	
+}
+
+@media (max-height: 1366px) and (max-width: 768px) {
+	.video {
+		margin-left: 36.65%;
+		margin-right: 0;
+		padding: 0;
+		z-index: 0;
+		width: 26.7%;
+	}
+	
+	
+}
+
+@media (max-height: 1280px) and (max-width: 1024px) {
+	.video {
+		margin-left: 30.1%;
+		margin-right: 0;
+		padding: 0;
+		z-index: 0;
+		width: 39.9%;
+	}
+	
+	
+}
+
+@media (max-height: 1280px) and (max-width: 800px) {
+	.video {
+		margin-left: 35.2%;
+		margin-right: 0;
+		padding: 0;
+		z-index: 0;
+		width: 29.9%;
+	}
+	
+}
+
+
+@media (max-height: 1024px) and (max-width: 768px) {
+	.video {
+		margin-left: 32.1%;
+		margin-right: 0;
+		padding: 0;
+		z-index: 0;
+		width: 35.8%;
+	}
+	
+}
+
+
+@media (max-height: 800px) and (max-width: 600px) {
+	.video {
+		margin-left: 28.7%;
+		margin-right: 0;
+		padding: 0;
+		z-index: 0;
+		width: 42.6%;
+	}
+	
+}
+
+@media (max-height: 736px) and (max-width: 414px) {
+	.video {
+		margin-left: 10%;
+		margin-right: 0;
+		padding: 0;
+		z-index: 0;
+		width: 95%;
+	}
+	
+}
+
+
+@media (max-height: 733px) and (max-width: 435px) {
+	.video {
+		margin-left: 38.2%;
+		margin-right: 0;
+		padding: 0;
+		z-index: 0;
+		width: 23.8%;
+	}
+	
+}
+
+@media (max-height: 733px) and (max-width: 435px) {
+	.video {
+    margin-left: 39.2%;
+    margin-right: 0;
+    padding: 0;
+    z-index: 0;
+    width: 21.8%;
+}
+	
+}
+
+
+
+
+
+
